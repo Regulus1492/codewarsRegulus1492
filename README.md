@@ -1,0 +1,1 @@
+# codewarsRegulus1492
