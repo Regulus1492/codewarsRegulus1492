@@ -58,3 +58,5 @@ def persistence(n):
             print(n,digitmul_res,digitcount_res,persistance_num)
 
     return persistance_num
+
+print(persistence(292))
