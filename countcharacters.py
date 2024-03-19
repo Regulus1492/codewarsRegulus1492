@@ -16,3 +16,21 @@ def count(string):
 
 def count(s):
     return {x:s.count(x) for x in set(s)}
+
+
+# my solution
+
+def count(s):
+    # They key is the filter funtion
+    character_counter = {}
+    if s:
+        list_s = [i for i in s]
+        for value in list(set(list_s)):
+            character_counter[value] = len(list(filter(lambda x:x == value, list_s)))    
+        return character_counter
+            
+    else:
+        return {}
+
+
+
